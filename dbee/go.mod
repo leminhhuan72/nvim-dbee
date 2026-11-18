@@ -1,13 +1,12 @@
 module github.com/kndndrj/nvim-dbee/dbee
 
-go 1.23
-
-toolchain go1.23.4
+go 1.26.0
 
 require (
 	cloud.google.com/go/bigquery v1.61.0
 	github.com/ClickHouse/clickhouse-go/v2 v2.20.0
 	github.com/DATA-DOG/go-sqlmock v1.5.2
+	github.com/SAP/go-hdb v1.22.1
 	github.com/databricks/databricks-sql-go v1.5.3
 	github.com/docker/docker v27.1.1+incompatible
 	github.com/go-sql-driver/mysql v1.7.1
@@ -27,7 +26,7 @@ require (
 	github.com/testcontainers/testcontainers-go/modules/mysql v0.35.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.35.0
 	go.mongodb.org/mongo-driver v1.11.6
-	golang.org/x/sync v0.10.0
+	golang.org/x/sync v0.25.0
 	google.golang.org/api v0.189.0
 	google.golang.org/grpc v1.64.1
 	modernc.org/sqlite v1.21.2
@@ -142,16 +141,17 @@ require (
 	go.opentelemetry.io/otel v1.24.0 // indirect
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
-	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/net v0.27.0 // indirect
+	golang.org/x/mod v0.42.0 // indirect
+	golang.org/x/net v0.61.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
+	golang.org/x/telemetry v0.0.0-20261009151841-97e8ea77aa2a // indirect
+	golang.org/x/term v0.47.0 // indirect
+	golang.org/x/text v0.44.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	golang.org/x/tools v0.52.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/genproto v0.0.0-20240722135656-d784300faade // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240701130421-f6361c86f094 // indirect
